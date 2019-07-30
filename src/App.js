@@ -1,12 +1,13 @@
 import React from "react";
-
-import TodoList from "./TodoList";
+import HooksInc from "./HooksIncrement";
+import HooksEmoji from "./HooksEmoji";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <TodoList />
+      <HooksInc />
+      <HooksEmoji />
     </div>
   );
 }
